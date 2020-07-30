@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Header from './components/Header';
-import BannerMain from './components/BannerMain';
-import Carousel from './components/Carousel';
-import Footer from './components/Footer';
+import Header from './../../components/Header';
+import BannerMain from './../../components/BannerMain';
+import Carousel from './../../components/Carousel';
+import Footer from './../../components/Footer';
 
-import dados from './data/dados_iniciais.json';
+import dados from './../../data/dados_iniciais.json';
 
 
-function App() {
+export default function Home() {
   return (
     <div style={{ background: "#141414"}}>
       <Header />
@@ -31,5 +31,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
